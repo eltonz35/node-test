@@ -7,13 +7,13 @@ describe('testing Math libary', () => {
     });
 
     it('should subtract two numbers correctly', () => {
-        const response = Math.sub(4, 2);
-        expect(response).toBe(2);
+        const response = Math.sub(8, 2);
+        expect(response).toBe(6);
     });
 
     it('should multiply two numbers correctly', () => {
-        const response = Math.mut(2, 2);
-        expect(response).toBe(4);
+        const response = Math.mut(3, 5);
+        expect(response).toBe(15);
     });
 
     it('shold divide two numbers correctly', () => {
